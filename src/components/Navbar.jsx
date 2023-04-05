@@ -23,8 +23,8 @@ const Navbar = () => {
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Adrian &nbsp;
-            <span className="sm:block hidden">| JS Mastery</span>
+            Udit Raj &nbsp;
+            <span className="sm:block hidden">| Full Stack Developer</span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
@@ -32,7 +32,7 @@ const Navbar = () => {
             <li
               key={link.id}
               className={`${
-                active === link.title ? "text-white" : "text-secondary"
+                active === link.title ? "text-[#eacda3]" : "text-[#d6ae7b]"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
