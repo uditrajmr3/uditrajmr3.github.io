@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import myLogo from "./my_logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -36,8 +37,7 @@ import tictactoeCover from "./projects/proj-tictactoe.jpeg";
 import loginCover from "./projects/proj-login.jpeg";
 import clockCover from "./projects/proj-clock.jpeg";
 import calculatorCover from "./projects/proj-calculator.jpeg";
-import pongCover from "./projects/pong.svg";
-import threedCover from "./projects/threed.svg";
+import pongCover from "./projects/proj-pong.jpeg";
 
 export {
   portfolioCover,
@@ -46,8 +46,8 @@ export {
   clockCover,
   calculatorCover,
   pongCover,
-  threedCover,
   logo,
+  myLogo,
   backend,
   creator,
   mobile,

@@ -53,8 +53,8 @@ const About = () => {
         <a
           href="https://uditraj.site"
           target="_blank"
-          rel="noreferrer"
-          className="text-[#915eff] underline"
+          rel="noopener"
+          className="text-french-rose-500 underline"
         >
           uditraj.site
         </a>

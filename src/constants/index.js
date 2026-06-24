@@ -26,7 +26,6 @@ import {
   clockCover,
   calculatorCover,
   pongCover,
-  threedCover,
 } from "../assets";
 
 export const navLinks = [
@@ -251,19 +250,6 @@ const projects = [
     image: pongCover,
     source_code_link:
       "https://uditrajmr3.github.io/uditrajmr3/Pong%20Game/index.html",
-  },
-  {
-    name: "3D Portfolio",
-    description:
-      "An early Three.js experiment toward a 3D portfolio — preserved as-is, still in progress.",
-    tags: [
-      { name: "threejs", color: "blue-text-gradient" },
-      { name: "javascript", color: "green-text-gradient" },
-      { name: "vite", color: "pink-text-gradient" },
-    ],
-    image: threedCover,
-    source_code_link:
-      "https://uditrajmr3.github.io/uditrajmr3/3D_Portfolio/myProject/index.html",
   },
 ];
 
