@@ -16,7 +16,10 @@ import {
   figma,
   docker,
   threejs,
-  logo,
+  commerciax,
+  empyreal,
+  jbull,
+  simform,
   portfolioCover,
   tictactoeCover,
   loginCover,
@@ -115,14 +118,13 @@ const technologies = [
   },
 ];
 
-// Real work history, oldest to most recent. Company logos are placeholders —
-// swap the `icon` values for actual brand marks when you have them.
+// Real work history, oldest to most recent, with real company logos.
 const experiences = [
   {
     title: "Flutter Developer · Intern",
     company_name: "Empyreal Infotech",
-    icon: mobile,
-    iconBg: "#383E56",
+    icon: empyreal,
+    iconBg: "#0a0a0a",
     date: "Jan 2022 - Jun 2022",
     points: [
       "Built 'Expense Management', a Flutter-based personal finance app, as part of a 4-person team.",
@@ -133,8 +135,8 @@ const experiences = [
   {
     title: "Trainee Engineer · Apprenticeship",
     company_name: "Simform",
-    icon: backend,
-    iconBg: "#E6DEDD",
+    icon: simform,
+    iconBg: "#3a0d52",
     date: "Feb 2023 - Aug 2023",
     points: [
       "Completed an intensive full-stack apprenticeship across Flutter, Dart, Java, Swift, Node, Express and Python.",
@@ -145,8 +147,8 @@ const experiences = [
   {
     title: "Flutter → Senior Flutter → Full-Stack Developer",
     company_name: "J Bulls Infotech",
-    icon: web,
-    iconBg: "#383E56",
+    icon: jbull,
+    iconBg: "#3a1145",
     date: "Aug 2023 - Mar 2024",
     points: [
       "Designed the UI/UX for an interactive 3D Chess app using Rive animations in Flutter.",
@@ -157,8 +159,8 @@ const experiences = [
   {
     title: "Co-founder & CTO",
     company_name: "Commerciax Infotech · neweb.ai",
-    icon: logo,
-    iconBg: "#E6DEDD",
+    icon: commerciax,
+    iconBg: "#000000",
     date: "Mar 2024 - Present",
     points: [
       "Co-founded Commerciax Infotech and lead engineering for neweb.ai, an autonomous AI website platform.",

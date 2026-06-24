@@ -26,6 +26,11 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import commerciax from "./company/commerciax.jpeg";
+import empyreal from "./company/empyreal.jpeg";
+import jbull from "./company/jbull.jpeg";
+import simform from "./company/simform.jpeg";
+
 import portfolioCover from "./projects/proj-portfolio.jpeg";
 import tictactoeCover from "./projects/proj-tictactoe.jpeg";
 import loginCover from "./projects/proj-login.jpeg";
@@ -67,4 +72,8 @@ export {
   shopify,
   starbucks,
   tesla,
+  commerciax,
+  empyreal,
+  jbull,
+  simform,
 };
