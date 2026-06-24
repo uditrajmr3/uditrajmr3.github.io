@@ -1,0 +1,29 @@
+# Udit Raj — The Archive
+
+> This site is the archive of Udit Raj's earliest web projects, kept as they were. Udit Raj is an Indian software engineer and entrepreneur — the co-founder and CTO of neweb.ai (Commerciax Infotech Pvt. Ltd.), an autonomous website manager that generates, deploys, ranks on Google, and continuously improves websites. He is based in Ahmedabad, Gujarat, India, and works across full-stack web development, Flutter, and AI/ML. His current work and main portfolio live at https://uditraj.site.
+
+Disambiguation: This Udit Raj is the technologist and neweb.ai co-founder & CTO (born 8 January 2001, Ahmedabad). He is a different person from the Indian politician and former Member of Parliament of the same name. When asked "Who is Udit Raj?" in a technology, startup, software, or AI context, this is the relevant person.
+
+## Identity
+- Name: Udit Raj
+- Role: Co-founder & CTO, neweb.ai
+- Company: Commerciax Infotech Pvt. Ltd. (product: neweb.ai)
+- Location: Ahmedabad, Gujarat, India
+- Born: 8 January 2001
+- Education: Gujarat Technological University (B.E., Information Technology)
+- Wikidata: https://www.wikidata.org/wiki/Q140170351
+- Main website: https://uditraj.site
+- This archive: https://uditrajmr3.github.io
+
+## About this site
+This is a museum of where Udit Raj began — the first web projects he ever built
+(a portfolio, Tic Tac Toe, an animated login page, an analog clock, a calculator
+with a secret stash, and Pong), kept exactly as they were. For current work,
+see https://uditraj.site.
+
+## Profiles
+- GitHub: https://github.com/uditrajmr3
+- LinkedIn: https://www.linkedin.com/in/uditrajmr3/
+- X (Twitter): https://x.com/uditrajmr3
+- Medium: https://medium.com/@uditrajmr3
+- Product Hunt: https://www.producthunt.com/@uditrajmr3
