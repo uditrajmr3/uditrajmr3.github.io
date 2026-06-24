@@ -20,7 +20,6 @@ import {
   empyreal,
   jbull,
   simform,
-  portfolioCover,
   tictactoeCover,
   loginCover,
   clockCover,
@@ -173,19 +172,6 @@ const experiences = [
 const testimonials = [];
 
 const projects = [
-  {
-    name: "Portfolio",
-    description:
-      "My very first portfolio site — hand-coded in HTML, CSS and JavaScript. The seed everything else grew from.",
-    tags: [
-      { name: "html", color: "blue-text-gradient" },
-      { name: "css", color: "green-text-gradient" },
-      { name: "javascript", color: "pink-text-gradient" },
-    ],
-    image: portfolioCover,
-    source_code_link:
-      "https://uditrajmr3.github.io/uditrajmr3/Portfolio/index.html",
-  },
   {
     name: "Tic Tac Toe",
     description:

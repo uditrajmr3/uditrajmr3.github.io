@@ -32,7 +32,6 @@ import empyreal from "./company/empyreal.jpeg";
 import jbull from "./company/jbull.jpeg";
 import simform from "./company/simform.jpeg";
 
-import portfolioCover from "./projects/proj-portfolio.jpeg";
 import tictactoeCover from "./projects/proj-tictactoe.jpeg";
 import loginCover from "./projects/proj-login.jpeg";
 import clockCover from "./projects/proj-clock.jpeg";
@@ -40,7 +39,6 @@ import calculatorCover from "./projects/proj-calculator.jpeg";
 import pongCover from "./projects/proj-pong.jpeg";
 
 export {
-  portfolioCover,
   tictactoeCover,
   loginCover,
   clockCover,
