@@ -15,14 +15,15 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  logo,
+  portfolioCover,
+  tictactoeCover,
+  loginCover,
+  clockCover,
+  calculatorCover,
+  pongCover,
+  threedCover,
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +43,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "AI / ML Engineer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Full-Stack Developer",
+    icon: web,
+  },
+  {
+    title: "Senior Flutter Developer",
+    icon: mobile,
+  },
+  {
+    title: "Co-founder & CTO",
     icon: creator,
   },
 ];
@@ -114,151 +115,153 @@ const technologies = [
   },
 ];
 
+// Real work history, oldest to most recent. Company logos are placeholders —
+// swap the `icon` values for actual brand marks when you have them.
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Flutter Developer · Intern",
+    company_name: "Empyreal Infotech",
+    icon: mobile,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2022 - Jun 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built 'Expense Management', a Flutter-based personal finance app, as part of a 4-person team.",
+      "Owned the UI design and overall application architecture end to end.",
+      "Integrated pub.dev packages to ship a clean, responsive mobile experience.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Trainee Engineer · Apprenticeship",
+    company_name: "Simform",
+    icon: backend,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Feb 2023 - Aug 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Completed an intensive full-stack apprenticeship across Flutter, Dart, Java, Swift, Node, Express and Python.",
+      "Worked with Firebase, MongoDB Atlas, SQLite and Hive for data and persistence.",
+      "Gained a comprehensive, production-grade understanding of the Flutter framework.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Flutter → Senior Flutter → Full-Stack Developer",
+    company_name: "J Bulls Infotech",
+    icon: web,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Aug 2023 - Mar 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed the UI/UX for an interactive 3D Chess app using Rive animations in Flutter.",
+      "Promoted to Senior Flutter Developer, architecting features with the BLoC pattern.",
+      "Built the MVP for GameBullz — a Flutter + Node.js app to find and book gaming venues like box cricket pitches and football turfs.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Co-founder & CTO",
+    company_name: "Commerciax Infotech · neweb.ai",
+    icon: logo,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Mar 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Co-founded Commerciax Infotech and lead engineering for neweb.ai, an autonomous AI website platform.",
+      "Architect full-stack systems and AI/ML pipelines across the product.",
+      "Drive technical strategy end to end — from infrastructure and DevOps to user-facing features.",
     ],
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+// Testimonials removed from the page (no honest testimonials for an archive).
+const testimonials = [];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Portfolio",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "My very first portfolio site — hand-coded in HTML, CSS and JavaScript. The seed everything else grew from.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      { name: "html", color: "blue-text-gradient" },
+      { name: "css", color: "green-text-gradient" },
+      { name: "javascript", color: "pink-text-gradient" },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: portfolioCover,
+    source_code_link:
+      "https://uditrajmr3.github.io/uditrajmr3/Portfolio/index.html",
   },
   {
-    name: "Job IT",
+    name: "Tic Tac Toe",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A two-player Tic Tac Toe built with vanilla JavaScript and hands-on DOM manipulation.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      { name: "html", color: "blue-text-gradient" },
+      { name: "css", color: "green-text-gradient" },
+      { name: "javascript", color: "pink-text-gradient" },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: tictactoeCover,
+    source_code_link:
+      "https://uditrajmr3.github.io/uditrajmr3/Tic%20Tac%20Toe/index.html",
   },
   {
-    name: "Trip Guide",
+    name: "Login Page",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An animated glassmorphism login screen with falling-leaf parallax — pure HTML and CSS.",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "html", color: "blue-text-gradient" },
+      { name: "css", color: "green-text-gradient" },
+      { name: "javascript", color: "pink-text-gradient" },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: loginCover,
+    source_code_link:
+      "https://uditrajmr3.github.io/uditrajmr3/Login%20Page/index.html",
+  },
+  {
+    name: "Analog Clock",
+    description:
+      "A real-time analog clock driven by the JavaScript Date API and CSS transforms.",
+    tags: [
+      { name: "html", color: "blue-text-gradient" },
+      { name: "css", color: "green-text-gradient" },
+      { name: "javascript", color: "pink-text-gradient" },
+    ],
+    image: clockCover,
+    source_code_link:
+      "https://uditrajmr3.github.io/uditrajmr3/Analog%20Clock/index.html",
+  },
+  {
+    name: "Calculator with Secret Stash",
+    description:
+      "A working calculator hiding a secret stash — a playful twist on a classic build.",
+    tags: [
+      { name: "html", color: "blue-text-gradient" },
+      { name: "css", color: "green-text-gradient" },
+      { name: "javascript", color: "pink-text-gradient" },
+    ],
+    image: calculatorCover,
+    source_code_link:
+      "https://uditrajmr3.github.io/uditrajmr3/Calculator%20with%20Secret%20Stash/index.html",
+  },
+  {
+    name: "Pong",
+    description:
+      "The arcade classic, rebuilt from scratch with vanilla JavaScript and the canvas API.",
+    tags: [
+      { name: "html", color: "blue-text-gradient" },
+      { name: "javascript", color: "green-text-gradient" },
+      { name: "canvas", color: "pink-text-gradient" },
+    ],
+    image: pongCover,
+    source_code_link:
+      "https://uditrajmr3.github.io/uditrajmr3/Pong%20Game/index.html",
+  },
+  {
+    name: "3D Portfolio",
+    description:
+      "An early Three.js experiment toward a 3D portfolio — preserved as-is, still in progress.",
+    tags: [
+      { name: "threejs", color: "blue-text-gradient" },
+      { name: "javascript", color: "green-text-gradient" },
+      { name: "vite", color: "pink-text-gradient" },
+    ],
+    image: threedCover,
+    source_code_link:
+      "https://uditrajmr3.github.io/uditrajmr3/3D_Portfolio/myProject/index.html",
   },
 ];
 

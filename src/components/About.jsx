@@ -32,29 +32,33 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview</h2>
+        <p className={styles.sectionSubText}>The archive</p>
+        <h2 className={styles.sectionHeadText}>Where I began</h2>
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Contrary to popular belief, Lorem Ipsum is not simply random text. It
-        has roots in a piece of classical Latin literature from 45 BC, making it
-        over 2000 years old. Richard McClintock, a Latin professor at
-        Hampden-Sydney College in Virginia, looked up one of the more obscure
-        Latin words, consectetur, from a Lorem Ipsum passage, and going through
-        the cites of the word in classical literature, discovered the
-        undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
-        of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
-        Cicero, written in 45 BC. This book is a treatise on the theory of
-        ethics, very popular during the Renaissance. The first line of Lorem
-        Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
-        1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is
-        reproduced below for those interested. Sections 1.10.32 and 1.10.33 from
-        "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their
-        exact original form, accompanied by English versions from the 1914
-        translation by H. Rackham.
+        I'm Udit Raj — a 25-year-old engineer from Bihar, now based in
+        Ahmedabad. I started out with Flutter and Android internships, then went
+        deep into full-stack with MERN and Next.js, and on into AI, ML and a
+        little DevOps along the way. Today I'm Co-founder &amp; CTO at Commerciax
+        Infotech, building neweb.ai.
+        <br />
+        <br />
+        Think of this site as a museum rather than a storefront. Everything here
+        is the past — the first projects I ever shipped, however rough, kept
+        exactly as they were. They're my roots. My current work lives in the
+        workshop at{" "}
+        <a
+          href="https://uditraj.site"
+          target="_blank"
+          rel="noreferrer"
+          className="text-[#915eff] underline"
+        >
+          uditraj.site
+        </a>
+        .
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

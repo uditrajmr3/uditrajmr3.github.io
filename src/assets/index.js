@@ -26,11 +26,22 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import portfolioCover from "./projects/proj-portfolio.jpeg";
+import tictactoeCover from "./projects/proj-tictactoe.jpeg";
+import loginCover from "./projects/proj-login.jpeg";
+import clockCover from "./projects/proj-clock.jpeg";
+import calculatorCover from "./projects/proj-calculator.jpeg";
+import pongCover from "./projects/pong.svg";
+import threedCover from "./projects/threed.svg";
 
 export {
+  portfolioCover,
+  tictactoeCover,
+  loginCover,
+  clockCover,
+  calculatorCover,
+  pongCover,
+  threedCover,
   logo,
   backend,
   creator,
@@ -56,7 +67,4 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
 };
